@@ -5,7 +5,9 @@
 ```text
 ml-course-labs/
 ├── machine-learning/
-│   └── optimizer.ipynb                         # Rosenbrock 函数上的梯度下降与牛顿法
+│   ├── optimizer.ipynb                         # 自学:Rosenbrock 函数上的梯度下降与牛顿法
+│   └── homework/                               # 课程作业(老师仓库 MachineLearning_Student 对应实验的完成版)
+│       └── exp1_linear_regression.ipynb        # 实验一:线性回归
 └── data-mining/
     └── elliptic-bitcoin-fraud-detection/
         ├── 01_eda.ipynb                        # 数据下载与探索性分析
@@ -16,6 +18,7 @@ ml-course-labs/
 ## 直接在 Colab 运行
 
 - [机器学习：优化器](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/machine-learning/optimizer.ipynb)
+- [机器学习作业：实验一 线性回归](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/machine-learning/homework/exp1_linear_regression.ipynb)
 - [数据挖掘：Elliptic 01 EDA](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/data-mining/elliptic-bitcoin-fraud-detection/01_eda.ipynb)
 - [数据挖掘：Elliptic 02 Baseline](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/data-mining/elliptic-bitcoin-fraud-detection/02_baseline.ipynb)
 - [数据挖掘：Elliptic 03 Graph Transformer](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/data-mining/elliptic-bitcoin-fraud-detection/03_graph_transformer.ipynb)
