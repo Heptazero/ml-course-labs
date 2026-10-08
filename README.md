@@ -12,10 +12,13 @@ ml-course-labs/
 │       ├── exp3_sgd_msgd.ipynb                 # 实验三:SGD与Mini-batch SGD
 │       └── airfoil_self_noise.dat              # 实验三用的数据文件(notebook首次运行时自动下载这份)
 └── data-mining/
-    └── elliptic-bitcoin-fraud-detection/
-        ├── 01_eda.ipynb                        # 数据下载与探索性分析
-        ├── 02_baseline.ipynb                   # 决策树、SVM 基线
-        └── 03_graph_transformer.ipynb          # 图 Transformer 实验
+    ├── elliptic-bitcoin-fraud-detection/
+    │   ├── 01_eda.ipynb                        # 数据下载与探索性分析
+    │   ├── 02_baseline.ipynb                   # 决策树、SVM 基线
+    │   └── 03_graph_transformer.ipynb          # 图 Transformer 实验
+    ├── credit-card-fraud-detection/            # 线上实验:SVM + 神经网络的客户信用风险评估(01~09)
+    └── decision-tree-pruning/
+        └── pima_tree_pruning.ipynb             # 作业:Pima 糖尿病数据上的决策树预剪枝与后剪枝
 ```
 
 ## 直接在 Colab 运行
@@ -27,6 +30,7 @@ ml-course-labs/
 - [数据挖掘：Elliptic 01 EDA](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/data-mining/elliptic-bitcoin-fraud-detection/01_eda.ipynb)
 - [数据挖掘：Elliptic 02 Baseline](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/data-mining/elliptic-bitcoin-fraud-detection/02_baseline.ipynb)
 - [数据挖掘：Elliptic 03 Graph Transformer](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/data-mining/elliptic-bitcoin-fraud-detection/03_graph_transformer.ipynb)
+- [数据挖掘作业：决策树剪枝](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/data-mining/decision-tree-pruning/pima_tree_pruning.ipynb)
 
 Elliptic notebook 会把数据下载到 Colab 的临时空间，不需要挂载 Google Drive。Colab 运行时重启后，临时数据会被清除并在下次运行时重新下载。
 
