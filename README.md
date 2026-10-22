@@ -11,8 +11,10 @@ ml-course-labs/
 │       ├── exp2_ridge_lasso.ipynb              # 实验二:岭回归与Lasso回归
 │       ├── exp3_sgd_msgd.ipynb                 # 实验三:SGD与Mini-batch SGD
 │       ├── exp4_newton_cd.ipynb                # 实验四:牛顿迭代与坐标下降
+│       ├── exp5_logistic.ipynb                 # 实验五:Logistic回归(马疝病)
 │       ├── airfoil_self_noise.dat              # 实验三用的数据文件(notebook首次运行时自动下载这份)
-│       └── auto_mpg.csv                        # 实验四用的数据文件
+│       ├── auto_mpg.csv                        # 实验四用的数据文件
+│       └── horseColic*.txt, classification_metrics.py   # 实验五用的数据文件和评估函数
 └── data-mining/
     ├── elliptic-bitcoin-fraud-detection/
     │   ├── 01_eda.ipynb                        # 数据下载与探索性分析
@@ -32,6 +34,7 @@ ml-course-labs/
 - [机器学习作业：实验二 岭回归与Lasso回归](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/machine-learning/homework/exp2_ridge_lasso.ipynb)
 - [机器学习作业：实验三 SGD与Mini-batch SGD](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/machine-learning/homework/exp3_sgd_msgd.ipynb)
 - [机器学习作业：实验四 牛顿迭代与坐标下降](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/machine-learning/homework/exp4_newton_cd.ipynb)
+- [机器学习作业：实验五 Logistic回归](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/machine-learning/homework/exp5_logistic.ipynb)
 - [数据挖掘：Elliptic 01 EDA](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/data-mining/elliptic-bitcoin-fraud-detection/01_eda.ipynb)
 - [数据挖掘：Elliptic 02 Baseline](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/data-mining/elliptic-bitcoin-fraud-detection/02_baseline.ipynb)
 - [数据挖掘：Elliptic 03 Graph Transformer](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/data-mining/elliptic-bitcoin-fraud-detection/03_graph_transformer.ipynb)
