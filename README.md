@@ -16,12 +16,14 @@ ml-course-labs/
 │       ├── exp7_svm.ipynb                      # 实验七:支持向量机(SMO,鸢尾花/葡萄酒)
 │       ├── exp8_softsvm.ipynb                  # 实验八:软间隔SVM(垃圾邮件分类)
 │       ├── exp9_decision_tree.ipynb            # 实验九:决策树(CART,共享单车回归/语音分类)
+│       ├── exp10_neural_network.ipynb          # 实验十:神经网络(MLP,Fashion-MNIST分类)
 │       ├── airfoil_self_noise.dat              # 实验三用的数据文件(notebook首次运行时自动下载这份)
 │       ├── auto_mpg.csv                        # 实验四用的数据文件
 │       ├── horseColic*.txt, classification_metrics.py   # 实验五用的数据文件和评估函数
 │       ├── data.csv                            # 实验六用的数据文件(Otto)
 │       ├── spamTrain.mat, spamTest.mat         # 实验八用的数据文件(垃圾邮件)
-│       └── bike.csv, voice.csv                 # 实验九用的数据文件(共享单车/语音)
+│       ├── bike.csv, voice.csv                 # 实验九用的数据文件(共享单车/语音)
+│       └── fashion-mnist_train.csv.gz, neural_network.py  # 实验十用的数据和网络模块
 └── data-mining/
     ├── elliptic-bitcoin-fraud-detection/
     │   ├── 01_eda.ipynb                        # 数据下载与探索性分析
@@ -48,6 +50,7 @@ ml-course-labs/
 - [机器学习作业：实验七 支持向量机]
 - [机器学习作业：实验八 软间隔SVM](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/machine-learning/homework/exp8_softsvm.ipynb)(https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/machine-learning/homework/exp7_svm.ipynb)(https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/machine-learning/homework/exp6_softmax.ipynb)
 - [机器学习作业：实验九 决策树](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/machine-learning/homework/exp9_decision_tree.ipynb)
+- [机器学习作业：实验十 神经网络](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/machine-learning/homework/exp10_neural_network.ipynb)
 - [数据挖掘：Elliptic 01 EDA](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/data-mining/elliptic-bitcoin-fraud-detection/01_eda.ipynb)
 - [数据挖掘：Elliptic 02 Baseline](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/data-mining/elliptic-bitcoin-fraud-detection/02_baseline.ipynb)
 - [数据挖掘：Elliptic 03 Graph Transformer](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/data-mining/elliptic-bitcoin-fraud-detection/03_graph_transformer.ipynb)
