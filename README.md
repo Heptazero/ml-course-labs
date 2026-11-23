@@ -35,7 +35,8 @@ ml-course-labs/
     └── student-learning-risk/
         └── track_b_clustering_apriori.ipynb    # 大作业赛道 B:周度时序聚类与 Apriori 关联规则
 └── deep-learning/
-    └── ch02_preliminaries.ipynb                # 动手学深度学习 第2章：预备知识
+    ├── ch02_preliminaries.ipynb                # 动手学深度学习 第2章：预备知识
+    └── ch05_deep_learning_computation.ipynb    # 动手学深度学习 第5章：深度学习计算
 ```
 
 ## 直接在 Colab 运行
@@ -57,6 +58,7 @@ ml-course-labs/
 - [数据挖掘作业：决策树剪枝](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/data-mining/decision-tree-pruning/pima_tree_pruning.ipynb)
 - [数据挖掘大作业：赛道 B 时序聚类与关联规则](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/data-mining/student-learning-risk/track_b_clustering_apriori.ipynb)
 - [深度学习：第2章 预备知识](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/deep-learning/ch02_preliminaries.ipynb)
+- [深度学习：第5章 深度学习计算](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/deep-learning/ch05_deep_learning_computation.ipynb)
 
 Elliptic notebook 会把数据下载到 Colab 的临时空间，不需要挂载 Google Drive。Colab 运行时重启后，临时数据会被清除并在下次运行时重新下载。
 
