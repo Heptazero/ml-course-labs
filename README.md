@@ -37,7 +37,8 @@ ml-course-labs/
 └── deep-learning/
     ├── ch02_preliminaries.ipynb                # 动手学深度学习 第2章：预备知识
     ├── ch05_deep_learning_computation.ipynb    # 动手学深度学习 第5章：深度学习计算
-    └── exp1_cnn_alexnet_resnet.ipynb           # 实验一：卷积神经网络实践（AlexNet 与 ResNet）
+    ├── exp1_cnn_alexnet_resnet.ipynb           # 实验一：卷积神经网络实践（AlexNet 与 ResNet）
+    └── exp2_rnn_lstm.ipynb                     # 实验二：循环神经网络实践（RNN 与 LSTM）
 ```
 
 ## 直接在 Colab 运行
@@ -61,6 +62,7 @@ ml-course-labs/
 - [深度学习：第2章 预备知识](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/deep-learning/ch02_preliminaries.ipynb)
 - [深度学习：第5章 深度学习计算](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/deep-learning/ch05_deep_learning_computation.ipynb)
 - [深度学习实验一：卷积神经网络实践（AlexNet 与 ResNet）](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/deep-learning/exp1_cnn_alexnet_resnet.ipynb)
+- [深度学习实验二：循环神经网络实践（RNN 与 LSTM）](https://colab.research.google.com/github/Heptazero/ml-course-labs/blob/main/deep-learning/exp2_rnn_lstm.ipynb)
 
 Elliptic notebook 会把数据下载到 Colab 的临时空间，不需要挂载 Google Drive。Colab 运行时重启后，临时数据会被清除并在下次运行时重新下载。
 
